@@ -14,7 +14,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
-            <a class="navbar-brand text-dark" href="#">
+            <a class="navbar-brand text-dark fw-bold" href="./index.html">
                 <i class="bi bi-record-fill text-info"></i>小貓咪
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,13 +23,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item mx-3">
-                            <a class="nav-link active" aria-current="page" href="./index.html">首頁</a>
+                            <a class="nav-link" aria-current="page" href="./index.html">首頁</a>
                         </li>
                         <li class="nav-item mx-3">
                             <a class="nav-link" href="#">服務介紹</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link" href="./payment.html">方案費用</a>
+                            <a class="nav-link active" href="./payment.html">方案費用</a>
                         </li>
                         <li class="nav-item mx-3">
                             <a class="nav-link" href="./questions.html">常見問題</a>
@@ -43,9 +43,9 @@
     </nav>
 
     <section class="d-flex align-items-center justify-content-center" style="background-image: url(./images/bg_paper.png);height: 180px;">
-        <div class="text-center">
-            <p class="text-info fw-bold fs-5">HAPPY LIFE</p>
-            <h1 class="fw-bold" style="letter-spacing: 3px;">開始當個小貓咪</h1>
+        <div class="text-center" style="letter-spacing: 2px;">
+            <p class="text-info fw-bold fs-5" >HAPPY LIFE</p>
+            <h1 class="fw-bold">開始當個小貓咪</h1>
         </div>
     </section>
 
@@ -93,14 +93,18 @@
                             <input type="email" class="form-control" id="inputEmail">
                         </div>
                         <div class="col-12">
-                            <label for="inputAddress" class="form-label">住址</label>
-                            <input type="text" class="form-control" id="inputAddress">
+                            <label for="inputAddress1" class="form-label">住址</label>
+                            <input type="text" class="form-control" id="inputAddress1">
                         </div>
                         <div class="col-12">
                             <label for="inputTime" class="form-label">方便聯繫時間</label>
                             <select id="inputTime" class="form-select">
-                                <option selected>13:00-17:00</option>
-                              </select>
+                                <option value="13:00-17:00" selected>13:00-17:00</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress2" class="form-label">住址</label>
+                            <input type="text" class="form-control" id="inputAddress2">
                         </div>
                         <div class="col-12">
                             <legend class="form-label fs-6">加購服務</legend>
@@ -122,7 +126,7 @@
                             <textarea class="form-control" id="inputExplain" rows="3"></textarea>
                         </div>
                         <div class="col-12">
-                            <button type="submit" class="btn btn-info w-100">選擇方案</button>
+                            <button type="submit" class="btn btn-info w-100 fs-5">選擇方案</button>
                         </div>
                     </div>
                 </form>
