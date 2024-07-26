@@ -18,7 +18,7 @@ See at : [LANDING_PAGE](https://chrisluo5311.github.io/LANDING_PAGE/)
  <h2 ><img src="https://img.icons8.com/?size=20&id=33830&format=png&color=38B7BD"/> &nbspContent Preview: </h2>
 
 - Home page:
-<img src="https://github.com/chrisluo5311/LANDING_PAGE/images/home_page.jpg"/>
+<img src="https://github.com/chrisluo5311/LANDING_PAGE/blob/master/images/home_page.jpg"/>
 
 - Order list:
 <img src="https://chrisluo5311.github.io/LANDING_PAGE/images/payment.jpg"/>
