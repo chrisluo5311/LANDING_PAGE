@@ -19,9 +19,11 @@ See at : [LANDING_PAGE](https://chrisluo5311.github.io/LANDING_PAGE/)
 
 - Home page:
 <img src="https://github.com/chrisluo5311/LANDING_PAGE/images/home_page.jpg"/>
+<img src="https://github.com/chrisluo5311/LANDING_PAGE/images/home_page_2.jpg"/>
+<img src="https://github.com/chrisluo5311/LANDING_PAGE/images/home_page_3.jpg"/>
 
-- Order list:
+- Payment:
 <img src="https://chrisluo5311.github.io/LANDING_PAGE/images/payment.jpg"/>
 
-- Order detail:
+- Q & A:
 <img src="https://chrisluo5311.github.io/LANDING_PAGE/images/QA.jpg"/>
